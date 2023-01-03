@@ -184,3 +184,11 @@ form input[type=submit]:placeholder {
 .container-single p{
     padding: 30px;
 }
+
+footer {
+    background-color: #212343;
+    padding: 20px 0;
+    clear: both;
+    text-align: center;
+    color: white;
+}
