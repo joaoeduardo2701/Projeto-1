@@ -18,12 +18,14 @@ html, body {
 header {
     width: 100%;
     height: 60px;
+    padding: 0 2%;
     background-color: #212343;
 }
 
 .center {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    max-width: 1280px;
 }
 
 #logo {
@@ -35,14 +37,14 @@ header {
 .container-banner {
     width: 100%;
     height: 557px;
+    padding: 0 2%;
     background-image: url(./imgs/header_bg.png);
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
 }
 
 .container-banner > .center {
     height: 100%;
-    
 }
 
 .form {
